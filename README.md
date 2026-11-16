@@ -27,9 +27,9 @@ Frontend Angular com API REST documentada (Swagger).
 - **Responsabilidade:** definir a estratégia de V&V, o escopo da cobertura, a análise de riscos e os critérios de entrada e saída.
 - **Foco prático:** estruturar a base do projeto, garantir que o planejamento converse com a execução dos outros membros e consolidar o arquivo PDF final.
 
-### Membro 2: Testes Manuais e Exploratórios
-- **Responsabilidade:** [o Membro 2 preenche]
-- **Foco prático:** [o Membro 2 preenche]
+### Membro 2: Testes Manuais e Exploratórios**
+- **Responsabilidade:** estruturar e executar casos de testes manuais, verificando as principais funcionalidades do sistema e validando os resultados obtidos.
+- **Foco prático:** criar casos de testes para cadastro, login, catálogo, carrinho e checkout. Realizar sessões de testes exploratórios, registrar comportamentos inesperados e documentar evidências das execuções.
 
 ### Membro 3: Automação Frontend/UI
 - **Responsabilidade:** [o Membro 3 preenche]
