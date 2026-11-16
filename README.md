@@ -15,7 +15,7 @@ Frontend Angular com API REST documentada (Swagger).
 | Nº | Nome completo | Matrícula | Papel |
 |----|---------------|-----------|-------|
 | 1 | Cecília Galindo | 855867 | Liderança de Qualidade e Planejamento |
-| 2 | [PREENCHER] | [PREENCHER] | Testes Manuais e Exploratórios |
+| 2 | Matheus Marques | 857487 | Testes Manuais e Exploratórios |
 | 3 | [PREENCHER] | [PREENCHER] | Automação Frontend/UI |
 | 4 | [PREENCHER] | [PREENCHER] | Automação Backend/API |
 | 5 | [PREENCHER] | [PREENCHER] | Qualidade de Código e Defeitos |
