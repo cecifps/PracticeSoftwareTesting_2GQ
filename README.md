@@ -2,6 +2,7 @@
 
 Projeto Final da disciplina: Teste e Qualidade de Software 
 Professora: Monique Soares
+
 Entrega: 23/11/2026 | Apresentação: 26/11/2026
 
 ## Sistema sob Teste (SUT)
