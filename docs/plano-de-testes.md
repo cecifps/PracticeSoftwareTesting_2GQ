@@ -129,8 +129,8 @@ Os testes terminam quando:
 
 | Item | Detalhe |
 |------|---------|
-| Sistema operacional e navegador | macOS (Membro 4) / [PREENCHER navegador] |
-| Versões de Node.js / Python | Python 3.9.6 (`pytest`, `requests`, `pytest-cov`) |
+| Sistema operacional e navegador | Linux / Chromium Headless (Membro 3) e macOS (Membro 4) |
+| Versões de Node.js / Python | Node.js v24.11.1 (`@playwright/test` 1.65.1) / Python 3.9.6 (`pytest`, `requests`, `pytest-cov`) |
 | Repositório | https://github.com/cecifps/PracticeSoftwareTesting_2GQ |
 
 ### 8.2 Papéis
@@ -171,3 +171,8 @@ Prints, logs e relatórios ficam na pasta `evidencias/` e são listados aqui con
 | API-003 | Print da cobertura incluindo criação de carrinho (`/carts`) | `evidencias/API-003-cobertura-final.png` |
 | API-004 | Print da execução do teste com Mock/Stub simulando erro 500 | `evidencias/API-004-mock-stub.png` |
 | API-005 | Print da cobertura final (100% em 6 testes, incluindo `DELETE` 404) | `evidencias/API-005-cobertura-crud.png` |
+| UI-001 | Print da execução E2E de login válido (`CT-UI-01`) | `evidencias/UI-001-login-valido.png` |
+| UI-002 | Print da validação de erro visual para login inválido (`CT-UI-02`) | `evidencias/UI-002-login-invalido.png` |
+| UI-003 | Print da filtragem de produtos por categoria no catálogo (`CT-UI-04`) | `evidencias/UI-003-filtro-categoria.png` |
+| UI-004 | Print da conclusão do Checkout - Happy Path (`CT-UI-05`) | `evidencias/UI-004-checkout-happy-path.png` |
+| UI-005 | Print do teste de integração de UI com Mock/Stub de rede (`CT-UI-07`) | `evidencias/UI-005-mock-rede-ui.png` |
