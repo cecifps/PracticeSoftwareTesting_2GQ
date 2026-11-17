@@ -19,7 +19,7 @@ Frontend Angular com API REST documentada (Swagger).
 | 3 | [PREENCHER] | [PREENCHER] | Automação Frontend/UI |
 | 4 | Daniel Barros | 856198 | Automação Backend/API |
 | 5 | [PREENCHER] | [PREENCHER] | Qualidade de Código e Defeitos |
-| 6 | [PREENCHER] | [PREENCHER] | DevOps e CI/CD |
+| 6 | Guilherme Valadares | 857082 | DevOps e CI/CD |
 
 ## Responsabilidades e foco prático
 
@@ -44,8 +44,8 @@ Frontend Angular com API REST documentada (Swagger).
 - **Foco prático:** [o Membro 5 preenche]
 
 ### Membro 6: DevOps e CI/CD
-- **Responsabilidade:** [o Membro 6 preenche]
-- **Foco prático:** [o Membro 6 preenche]
+- **Responsabilidade:** Configurar o pipeline de integração contínua, automatizando o build, execução de testes e quality gates básicos.
+- **Foco prático:** Criar a proposta detalhada do CI/CD, realizar a análise de impactos de mudanças e consolidar o Entregável 5 com apêndices e conclusões. 
 ## Estrutura do repositório
 
 ```
