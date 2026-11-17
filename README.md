@@ -59,15 +59,33 @@ docs/
   ci-cd.md
 tests/
   ui/
-  api/
   unit/
+testes_api/
+  test_produtos.py
+  test_login.py
+  test_carrinho.py
 evidencias/
 .github/workflows/
 ```
 
 ## Como rodar os testes
 
-[PREENCHER pelos Membros 3, 4 e 6: pré-requisitos, instalação e comandos]
+### Testes de API e Cobertura (Membro 4)
+Pré-requisitos: **Python 3.9+**
+
+```bash
+# Criar e ativar o ambiente virtual
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Instalar as dependências
+pip install pytest requests pytest-cov
+
+# Executar os testes de API com relatório de cobertura
+pytest --cov=testes_api
+```
+
+[PREENCHER pelos Membros 3 e 6: instruções de UI e pipeline]
 
 ## Documentos
 
@@ -77,7 +95,7 @@ evidencias/
 | Casos Manuais | Membro 2 | [docs/casos-manuais.md](docs/casos-manuais.md) |
 | Sessões Exploratórias | Membro 2 | [docs/sessoes-exploratorias/](docs/sessoes-exploratorias/) |
 | Testes de UI | Membro 3 | [tests/ui/](tests/ui/) |
-| Testes de API e Cobertura | Membro 4 | [tests/api/](tests/api/) |
+| Testes de API e Cobertura | Membro 4 | [testes_api/](testes_api/) |
 | Relatório de Bugs | Membro 5 | [docs/relatorio-bugs.md](docs/relatorio-bugs.md) |
 | Análise de Qualidade | Membro 5 | [docs/analise-qualidade.md](docs/analise-qualidade.md) |
 | CI/CD | Membro 6 | [docs/ci-cd.md](docs/ci-cd.md) |

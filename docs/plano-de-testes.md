@@ -33,7 +33,7 @@ Este plano define como a equipe vai verificar e validar o **Practice Software Te
 | F01 | Cadastro de usuário | Sim | Sim |
 | F02 | Login e logout | Sim | Sim |
 | F03 | Catálogo, busca, filtros e ordenação | Sim | Sim |
-| F04 | Carrinho | Sim | Não |
+| F04 | Carrinho | Sim | Sim |
 | F05 | Checkout e pagamento | Sim | Parcial |
 | F06 | Favoritos | Sim | Parcial |
 | F07 | Formulário de contato | Sim | Parcial |
@@ -58,7 +58,7 @@ Este plano define como a equipe vai verificar e validar o **Practice Software Te
 | Manual estruturado | Validar fluxos principais com casos repetíveis | Membro 2 | Casos em Markdown (`docs/casos-manuais.md`) |
 | Exploratório | Achar defeitos que os casos escritos não preveem | Membro 2 | Charters e anotações de sessão |
 | E2E / UI | Automatizar as jornadas do usuário | Membro 3 | Playwright |
-| API e unitário | Validar contrato, erros, mocks e cobertura | Membro 4 | Playwright (API) e Jest |
+| API e cobertura | Validar contrato, erros e cobertura da API | Membro 4 | Python (`pytest`, `requests` e `pytest-cov`) |
 | Análise estática | Métricas e code smells | Membro 5 | ESLint e SonarCloud |
 | Pipeline | Rodar build e testes automaticamente | Membro 6 | GitHub Actions |
 
@@ -129,8 +129,8 @@ Os testes terminam quando:
 
 | Item | Detalhe |
 |------|---------|
-| Sistema operacional e navegador | [PREENCHER: SO, navegador e versão] |
-| Versões de Node.js / Python | [PREENCHER] |
+| Sistema operacional e navegador | macOS (Membro 4) / [PREENCHER navegador] |
+| Versões de Node.js / Python | Python 3.9.6 (`pytest`, `requests`, `pytest-cov`) |
 | Repositório | https://github.com/cecifps/PracticeSoftwareTesting_2GQ |
 
 ### 8.2 Papéis
@@ -140,7 +140,7 @@ Os testes terminam quando:
 | 1 | Cecília Galindo | Liderança de Qualidade e Planejamento |
 | 2 | Matheus Marques | Testes Manuais e Exploratórios |
 | 3 | [PREENCHER] | Automação Frontend/UI |
-| 4 | [PREENCHER] | Automação Backend/API |
+| 4 | Daniel Barros | Automação Backend/API |
 | 5 | [PREENCHER] | Qualidade de Código e Defeitos |
 | 6 | [PREENCHER] | DevOps e CI/CD |
 
@@ -166,3 +166,6 @@ Prints, logs e relatórios ficam na pasta `evidencias/` e são listados aqui con
 |----|-----------|---------|
 | EV-001 | Print do site com URL e data de acesso | `evidencias/ev-001-site.png` (a anexar) |
 | EV-002 | Print da documentação Swagger da API | `evidencias/ev-002-swagger.png` (a anexar) |
+| API-001 | Print da execução e cobertura da rota de produtos (`/products`) | `evidencias/API-001-cobertura-produtos.png` |
+| API-002 | Print da execução e cobertura do teste de login inválido (`/users/login`) | `evidencias/API-002-cobertura-login.png` |
+| API-003 | Print da cobertura final (100%) incluindo criação de carrinho (`/carts`) | `evidencias/API-003-cobertura-final.png` |
