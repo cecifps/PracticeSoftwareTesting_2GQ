@@ -36,8 +36,8 @@ Frontend Angular com API REST documentada (Swagger).
 - **Foco prático:** [o Membro 3 preenche]
 
 ### Membro 4: Automação Backend/API
-- **Responsabilidade:** [o Membro 4 preenche]
-- **Foco prático:** [o Membro 4 preenche]
+- **Responsabilidade:** Criar os testes de API (rotas de produtos, login e carrinho) utilizando Python com pytest e requests, além de estruturar a suíte de automação de testes do back-end.
+- **Foco prático:** Extrair as métricas de cobertura de código (100% atingido via pytest-cov) para a documentação final e fornecer esses dados estruturados para a pessoa responsavel pela etapa seguinte realizar a análise de qualidade.
 
 ### Membro 5: Qualidade de Código e Defeitos
 - **Responsabilidade:** [o Membro 5 preenche]
