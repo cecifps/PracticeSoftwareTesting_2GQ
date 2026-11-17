@@ -36,8 +36,8 @@ Frontend Angular com API REST documentada (Swagger).
 - **Foco prático:** [o Membro 3 preenche]
 
 ### Membro 4: Automação Backend/API
-- **Responsabilidade:** desenvolver e executar os testes automatizados de API REST (validação de contrato, códigos de status HTTP, payloads e regras de negócio), construir testes de unidade isolados e implementar dublês de teste (*mocks* e *stubs*).
-- **Foco prático:** automatizar os testes dos endpoints da API do *Practice Software Testing* (autenticação, catálogo/busca/filtros, carrinho, checkout/pagamento, favoritos e mensagens), implementar testes unitários das regras de negócio com *mocks/stubs* via Jest, e extrair métricas e relatórios reais de cobertura de código para compor as evidências e apoiar os Eixos 4, 5 e 6.
+- **Responsabilidade:** [o Membro 4 preenche]
+- **Foco prático:** [o Membro 4 preenche]
 
 ### Membro 5: Qualidade de Código e Defeitos
 - **Responsabilidade:** [o Membro 5 preenche]
@@ -67,27 +67,7 @@ evidencias/
 
 ## Como rodar os testes
 
-### Pré-requisitos
-- **Node.js** (v18+ ou v20+) e **npm**
-
-### Instalação
-```bash
-npm install
-```
-
-### Comandos de Execução (Membro 4 — API, Unidade, Mocks e Cobertura)
-```bash
-# Rodar os testes de unidade (com Mocks e Stubs)
-npm run test:unit
-
-# Rodar os testes de integração/contrato da API REST real (Swagger)
-npm run test:api
-
-# Rodar toda a suíte do Membro 4 (Unidade + API) com relatório de Cobertura de Código
-npm run test:coverage
-```
-
-*(Instruções de UI e Pipeline serão complementadas pelos Membros 3 e 6)*
+[PREENCHER pelos Membros 3, 4 e 6: pré-requisitos, instalação e comandos]
 
 ## Documentos
 
@@ -97,7 +77,7 @@ npm run test:coverage
 | Casos Manuais | Membro 2 | [docs/casos-manuais.md](docs/casos-manuais.md) |
 | Sessões Exploratórias | Membro 2 | [docs/sessoes-exploratorias/](docs/sessoes-exploratorias/) |
 | Testes de UI | Membro 3 | [tests/ui/](tests/ui/) |
-| Testes de API, Unidade e Cobertura | Membro 4 | [docs/testes-api-e-cobertura.md](docs/testes-api-e-cobertura.md), [tests/api/](tests/api/) e [tests/unit/](tests/unit/) |
+| Testes de API e Cobertura | Membro 4 | [tests/api/](tests/api/) |
 | Relatório de Bugs | Membro 5 | [docs/relatorio-bugs.md](docs/relatorio-bugs.md) |
 | Análise de Qualidade | Membro 5 | [docs/analise-qualidade.md](docs/analise-qualidade.md) |
 | CI/CD | Membro 6 | [docs/ci-cd.md](docs/ci-cd.md) |
