@@ -1,0 +1,25 @@
+{
+  "name": "practice-software-testing-2gq",
+  "version": "1.0.0",
+  "description": "Suite de Testes Automatizados (API, Unidade, Mocks/Stubs e Cobertura) - Practice Software Testing",
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:unit": "jest tests/unit",
+    "test:api": "jest tests/api --runInBand",
+    "test:coverage": "jest --runInBand --coverage"
+  },
+  "keywords": [
+    "testing",
+    "qa",
+    "jest",
+    "api-testing",
+    "unit-testing",
+    "mocks",
+    "coverage"
+  ],
+  "author": "Equipe 2GQ - Membro 4 (Daniel Barros - 856198)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
