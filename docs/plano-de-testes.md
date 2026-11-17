@@ -168,4 +168,6 @@ Prints, logs e relatórios ficam na pasta `evidencias/` e são listados aqui con
 | EV-002 | Print da documentação Swagger da API | `evidencias/ev-002-swagger.png` (a anexar) |
 | API-001 | Print da execução e cobertura da rota de produtos (`/products`) | `evidencias/API-001-cobertura-produtos.png` |
 | API-002 | Print da execução e cobertura do teste de login inválido (`/users/login`) | `evidencias/API-002-cobertura-login.png` |
-| API-003 | Print da cobertura final (100%) incluindo criação de carrinho (`/carts`) | `evidencias/API-003-cobertura-final.png` |
+| API-003 | Print da cobertura incluindo criação de carrinho (`/carts`) | `evidencias/API-003-cobertura-final.png` |
+| API-004 | Print da execução do teste com Mock/Stub simulando erro 500 | `evidencias/API-004-mock-stub.png` |
+| API-005 | Print da cobertura final (100% em 6 testes, incluindo `DELETE` 404) | `evidencias/API-005-cobertura-crud.png` |
