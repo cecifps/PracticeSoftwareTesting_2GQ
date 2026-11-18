@@ -16,7 +16,7 @@ Frontend Angular com API REST documentada (Swagger).
 |----|---------------|-----------|-------|
 | 1 | Cecília Galindo | 855867 | Liderança de Qualidade e Planejamento |
 | 2 | Matheus Marques | 857487 | Testes Manuais e Exploratórios |
-| 3 | [PREENCHER] | [PREENCHER] | Automação Frontend/UI |
+| 3 | Maxwelber Mariano | 856308 | Automação Frontend/UI |
 | 4 | Daniel Barros | 856198 | Automação Backend/API |
 | 5 | [PREENCHER] | [PREENCHER] | Qualidade de Código e Defeitos |
 | 6 | Guilherme Valadares | 857082 | DevOps e CI/CD |
@@ -32,8 +32,8 @@ Frontend Angular com API REST documentada (Swagger).
 - **Foco prático:** criar casos de testes para cadastro, login, catálogo, carrinho e checkout. Realizar sessões de testes exploratórios, registrar comportamentos inesperados e documentar evidências das execuções.
 
 ### Membro 3: Automação Frontend/UI
-- **Responsabilidade:** [o Membro 3 preenche]
-- **Foco prático:** [o Membro 3 preenche]
+- **Responsabilidade:** Desenvolver a suíte de testes automatizados de interface (E2E e regressão) e testes de integração de UI com *mock/stub* de rede utilizando Playwright com TypeScript e o padrão Page Object Model (POM).
+- **Foco prático:** Automatizar as jornadas críticas do sistema (autenticação, busca/filtros, carrinho e checkout), validar o tratamento visual de falhas da API (erro 500 e lista vazia) e gerar relatórios HTML, *traces* e *screenshots* para as evidências de execução real.
 
 ### Membro 4: Automação Backend/API
 - **Responsabilidade:** Criar os testes de API (rotas de produtos, login, carrinho e exclusão) e implementação de *mock/stub* utilizando Python com `pytest`, `requests` e `unittest.mock`, além de estruturar a suíte de automação de testes do back-end.
@@ -87,7 +87,22 @@ pip install pytest requests pytest-cov
 pytest --cov=testes_api
 ```
 
-[PREENCHER pelos Membros 3 e 6: instruções de UI e pipeline]
+### Testes de UI E2E e Integração com Mock (Membro 3)
+Pré-requisitos: **Node.js 18+**
+
+```bash
+# Instalar as dependências do projeto e o navegador Chromium
+npm install
+npx playwright install chromium
+
+# Executar toda a suíte de UI em modo headless
+npx playwright test
+
+# Visualizar o relatório HTML gerado com screenshots e traces
+npx playwright show-report playwright-report
+```
+
+[PREENCHER pelo Membro 6: instruções de pipeline]
 
 ## Documentos
 
