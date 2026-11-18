@@ -45,7 +45,7 @@ Frontend Angular com API REST documentada (Swagger).
 
 ### Membro 6: DevOps e CI/CD
 - **Responsabilidade:** Configurar o pipeline de integração contínua, automatizando o build, execução de testes e quality gates básicos.
-- **Foco prático:** Criar a proposta detalhada do CI/CD, realizar a análise de impactos de mudanças e consolidar o Entregável 5 com apêndices e conclusões. 
+- **Foco prático:** Criar a proposta detalhada do CI/CD, realizar a análise de impactos de mudanças e consolidar a documentação de CI/CD com apêndices e conclusões. 
 ## Estrutura do repositório
 
 ```
