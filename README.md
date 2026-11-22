@@ -18,7 +18,7 @@ Frontend Angular com API REST documentada (Swagger).
 | 2 | Matheus Marques | 857487 | Testes Manuais e Exploratórios |
 | 3 | Maxwelber Mariano | 856308 | Automação Frontend/UI |
 | 4 | Daniel Barros | 856198 | Automação Backend/API |
-| 5 | [PREENCHER] | [PREENCHER] | Qualidade de Código e Defeitos |
+| 5 | Lucas Sebasitão | 29989 | Qualidade de Código e Defeitos |
 | 6 | Guilherme Valadares | 857082 | DevOps e CI/CD |
 
 ## Responsabilidades e foco prático
@@ -40,9 +40,8 @@ Frontend Angular com API REST documentada (Swagger).
 - **Foco prático:** Extrair as métricas de cobertura de código (100% atingido via pytest-cov) para a documentação final e fornecer esses dados estruturados para a pessoa responsavel pela etapa seguinte realizar a análise de qualidade.
 
 ### Membro 5: Qualidade de Código e Defeitos
-- **Responsabilidade:** [o Membro 5 preenche]
-- **Foco prático:** [o Membro 5 preenche]
-
+**Responsabilidade:** Analisar a qualidade do código, identificar code smells, avaliar métricas de complexidade e documentar defeitos encontrados durante os testes.
+**Foco prático:** Executar a análise de complexidade ciclomática com Radon, registrar oportunidades de refatoração, classificar bugs por severidade e prioridade e documentar evidências e propostas de melhoria.
 ### Membro 6: DevOps e CI/CD
 - **Responsabilidade:** Configurar o pipeline de integração contínua, automatizando o build, execução de testes e quality gates básicos.
 - **Foco prático:** Criar a proposta detalhada do CI/CD, realizar a análise de impactos de mudanças e consolidar a documentação de CI/CD com apêndices e conclusões. 
