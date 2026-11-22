@@ -79,3 +79,16 @@ Na execução do CT-UI-03, a busca por `Pliers` apresentou também `Bolt Cutters
 A suíte de testes possui organização em arquivos e utiliza ferramentas adequadas de automação. Entretanto, foram identificadas oportunidades de melhoria relacionadas à reutilização de código, robustez das requisições e precisão das validações.
 
 Os problemas descritos representam achados de qualidade de código e não devem ser confundidos com defeitos funcionais confirmados da aplicação.
+## 6. Métricas de complexidade ciclomática
+
+A complexidade ciclomática dos testes Python foi analisada utilizando a ferramenta Radon 6.0.1.
+
+**Comando utilizado:** `python -m radon cc testes_api -s -a`
+
+**Resultados:**
+- Funções analisadas: 6.
+- Complexidade média: 2,5.
+- Classificação geral: A (baixa complexidade).
+- Todas as funções receberam classificação A.
+
+Os resultados indicam baixa complexidade estrutural dos testes de API, favorecendo a compreensão e manutenção do código. Entretanto, essa métrica não avalia diretamente a cobertura dos testes nem a existência de defeitos funcionais.
